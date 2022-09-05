@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.p-dropdown .p-dropdown-label {
+  font-weight: 400;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar > .container > .dropdown > button {
+  padding:10px 30px !important;
+  margin:0px 15px !important;
+}
+.navbar > .container > .dropdown > button:hover {
+  background-color: #444 !important;
+}
+.navbar-brand {
+  padding-top: 0.1rem !important;
+  padding-bottom: 0.1rem !important;
+  /*font-size:18px !important;*/
+  vertical-align: middle !important;
+  width:100%;
+  text-decoration: none !important;
+  letter-spacing: 0.09rem;
+}
+.navbar > .container {
+  justify-content: center !important;
+}
+.navbar {
+  padding: 0 0 !important;
+  width:100vw !important;
+}
+.p-scrollpanel {
+  text-align: left;
+}
+.pm .p-scrollpanel-wrapper {
+  border-right: 3px solid #f4f4f4 !important;
+}
+
+.pm .p-scrollpanel-bar {
+  background-color: #555 !important;
+  opacity: 1 !important;
+  transition: background-color .3s !important;
+}
+
+.laws-empty {
+  font-style: italic;
+}
+
+.laws-title::before {
+  content: '|';
+  margin-right: 15px;
+}
+.laws-attr-value {
+  font-weight: 600;
+  padding: 3px 0px;
+}
+.pm .p-scrollpanel-bar:hover {
+  background-color: #555 !important;
+}
+
+.App-header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
